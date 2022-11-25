@@ -28,8 +28,8 @@ namespace dotTempCleanerConsoleEdition
                     Console.WriteLine(" ");
                     Console.WriteLine("----------------------------------------------About--------------------------------------------------------------------");
                     Console.WriteLine(" ");
-                    Console.WriteLine(".TempCleanerConsoleEdition Version: 2.0.0");
-                    Console.WriteLine(".NET version: 6.0.0");
+                    Console.WriteLine(".TempCleanerConsoleEdition Version: 2.0.2");
+                    Console.WriteLine(".NET version: 6.0.100");
                     Console.WriteLine("License: MIT License");
                     Console.WriteLine(" ");
                     Console.WriteLine("----------------------------------------------Links--------------------------------------------------------------------");
