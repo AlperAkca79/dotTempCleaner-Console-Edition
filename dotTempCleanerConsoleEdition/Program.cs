@@ -34,9 +34,9 @@ namespace dotTempCleanerConsoleEdition
                     Console.WriteLine(" ");
                     Console.WriteLine("----------------------------------------------Links--------------------------------------------------------------------");
                     Console.WriteLine(" ");
-                    Console.WriteLine("Website: " + "https://alperakca79.github.io/dotTempCleanerConsoleEdition");
-                    Console.WriteLine("Source Code: " + "https://github.com/AlperAkca79/dotTempCleanerConsoleEdition");
-                    Console.WriteLine("Found Bug? Report Issue on GitHub: " + "https://github.com/AlperAkca79/dotTempCleanerConsoleEdition/issues/new");
+                    Console.WriteLine("Website: " + "https://alperakca79.github.io/dotTemp-Cleaner-Console-Edition");
+                    Console.WriteLine("Source Code: " + "https://github.com/AlperAkca79/dotTemp-Cleaner-Console-Edition");
+                    Console.WriteLine("Found Bug? Report Issue on GitHub: " + "https://github.com/AlperAkca79/dotTemp-Cleaner-Console-Edition/issues/new");
                     Console.WriteLine(" ");
                     Console.WriteLine("-----------------------------------------------------------------------------------------------------------------------");
                     Console.WriteLine(" ");
@@ -51,7 +51,7 @@ namespace dotTempCleanerConsoleEdition
                 {
                     var tempPath = new DirectoryInfo(@"C:\Windows\Temp");
                     tempPath.Attributes = tempPath.Attributes & ~FileAttributes.ReadOnly;
-                    Console.WriteLine("Deleting temp folder");
+                    Console.WriteLine("Deleting temp folder...");
                     tempPath.Delete(true);
                     Console.Write("Selected Folders Cleaned!");
                 }
@@ -61,7 +61,7 @@ namespace dotTempCleanerConsoleEdition
                 {
                     var prefetchPath = new DirectoryInfo(@"C:\Windows\Prefetch");
                     prefetchPath.Attributes = prefetchPath.Attributes & ~FileAttributes.ReadOnly;
-                    Console.WriteLine("Deleting prefetch folder");
+                    Console.WriteLine("Deleting prefetch folder...");
                     prefetchPath.Delete(true);
                     Console.Write("Selected Folders Cleaned!");
                 }
@@ -70,16 +70,16 @@ namespace dotTempCleanerConsoleEdition
                 else if (selectedNumber == "z")
                 {
                     // Temp
-                    var tempPath = new DirectoryInfo(@"C:\Users\Alper\Desktop\temp");
+                    var tempPath = new DirectoryInfo(@"C:\Windows\Temp");
                     tempPath.Attributes = tempPath.Attributes & ~FileAttributes.ReadOnly;
-                    Console.WriteLine("Deleting temp folder");
+                    Console.WriteLine("Deleting temp folder...");
                     tempPath.Delete(true);
                     Console.Write("Selected Folders Cleaned!");
 
                     // Prefetch
                     var prefetchPath = new DirectoryInfo(@"C:\Windows\Prefetch");
                     prefetchPath.Attributes = prefetchPath.Attributes & ~FileAttributes.ReadOnly;
-                    Console.WriteLine("Deleting prefetch folder");
+                    Console.WriteLine("Deleting prefetch folder...");
                     prefetchPath.Delete(true);
                     Console.Write("Selected Folders Cleaned!");
                 }
