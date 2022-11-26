@@ -14,7 +14,7 @@ namespace dotTempCleanerConsoleEdition
             // Actions     
             while (keepUse)
             {
-                Console.WriteLine("Type 'w' for About .TempCleanerConsoleEdition");
+                Console.WriteLine("Type 'w' for About .TempCleaner Console Edition");
                 Console.WriteLine("Type 'x' for Delete 'Temp' Folder");
                 Console.WriteLine("Type 'y' for Delete 'Prefetch' Folder");
                 Console.WriteLine("Type 'z' for Delete 'Temp' and 'Prefetch' Folders");
@@ -28,15 +28,15 @@ namespace dotTempCleanerConsoleEdition
                     Console.WriteLine(" ");
                     Console.WriteLine("----------------------------------------------About--------------------------------------------------------------------");
                     Console.WriteLine(" ");
-                    Console.WriteLine(".TempCleanerConsoleEdition Version: 2.0.2");
+                    Console.WriteLine(".TempCleanerConsoleEdition Version: 2.0.3");
                     Console.WriteLine(".NET version: 6.0.100");
                     Console.WriteLine("License: MIT License");
                     Console.WriteLine(" ");
                     Console.WriteLine("----------------------------------------------Links--------------------------------------------------------------------");
                     Console.WriteLine(" ");
-                    Console.WriteLine("Website: " + "https://alperakca79.github.io/dotTemp-Cleaner-Console-Edition");
-                    Console.WriteLine("Source Code: " + "https://github.com/AlperAkca79/dotTemp-Cleaner-Console-Edition");
-                    Console.WriteLine("Found Bug? Report Issue on GitHub: " + "https://github.com/AlperAkca79/dotTemp-Cleaner-Console-Edition/issues/new");
+                    Console.WriteLine("Website: " + "https://alperakca79.github.io/dotTempCleaner-Console-Edition");
+                    Console.WriteLine("Source Code: " + "https://github.com/AlperAkca79/dotTempCleaner-Console-Edition");
+                    Console.WriteLine("Found Bug? Report Issue on GitHub: " + "https://github.com/AlperAkca79/dotTempCleaner-Console-Edition/issues/new");
                     Console.WriteLine(" ");
                     Console.WriteLine("-----------------------------------------------------------------------------------------------------------------------");
                     Console.WriteLine(" ");
